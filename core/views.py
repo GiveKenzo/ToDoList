@@ -4,7 +4,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
 from core.serializers import (CreateUserSerializer, LoginSerializer,
-                              ProfileSerializer, UpdatePasswordSerializer)
+                            ProfileSerializer, UpdatePasswordSerializer)
 
 from .models import User
 
